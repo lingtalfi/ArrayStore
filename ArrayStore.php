@@ -35,7 +35,7 @@ class ArrayStore
         $content .= '$store = ';
         $content .= ArrayExport::export($store);
         $content .= ';' . PHP_EOL;
-        FileSystemTool::mkfile($this->_path, $content);
+        return FileSystemTool::mkfile($this->_path, $content);
     }
 
     public function retrieve()
