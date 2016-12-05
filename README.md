@@ -57,6 +57,10 @@ History Log
 ------------------
     
    
+- 1.0.1 -- 2016-12-05
+
+    - fix constant store name 
+    
 - 1.0.0 -- 2016-12-05
 
     - initial commit
