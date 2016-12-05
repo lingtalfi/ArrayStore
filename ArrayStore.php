@@ -10,12 +10,10 @@ class ArrayStore
 {
 
 
-    private $varName;
     private $_path;
 
     private function __construct()
     {
-        $this->varName = null;
         $this->_path = null;
     }
 
@@ -34,7 +32,7 @@ class ArrayStore
     public function store(array $store)
     {
         $content = '<?php' . PHP_EOL . PHP_EOL;
-        $content .= '$'. $this->varName .' = ';
+        $content .= '$store = ';
         $content .= ArrayExport::export($store);
         $content .= ';' . PHP_EOL;
         FileSystemTool::mkfile($this->_path, $content);
