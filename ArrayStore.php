@@ -1,10 +1,10 @@
 <?php
 
-namespace ArrayStore;
+namespace Ling\ArrayStore;
 
 
-use ArrayExport\ArrayExport;
-use Bat\FileSystemTool;
+use Ling\ArrayExport\ArrayExport;
+use Ling\Bat\FileSystemTool;
 
 class ArrayStore
 {
