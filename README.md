@@ -67,7 +67,11 @@ Dependencies
 History Log
 ------------------
     
-   
+
+- 1.1.1 -- 2020-12-04
+
+    - Add lpi-deps.byml file
+
 - 1.1.0 -- 2016-12-05
 
     - forgot store method returns a boolean 
